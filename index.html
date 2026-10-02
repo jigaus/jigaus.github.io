@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html>
 
+<!-- this is setting everything up on the site -->
 <head>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
 <style>
-    h1 {font-family: "IBM Plex Serif"; text-align: center;}
-    h2 {font-family: "IBM Plex Serif";}
-    p {font-family: "Nunito Sans"; text-align: center;}
+    h1, h2, h3{
+        font-family: "IBM Plex Serif"; 
+        text-align: center;
+        line-height: 15px;
+    }
+
+    p {
+        font-family: "Nunito Sans"; 
+        text-align: center;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        width: 50%
+    }
+
+    .height {
+        line-height: 5px;
+    }
+
+    .padding {
+        padding-right: 250px;
+        padding-left: 250px;
+    }
+
+    .font {
+        font-family: "Nunito Sans"; 
+        text-align: center;
+    }
 </style>
     <title> an's site </title>
 </head>
 
+<!-- the actual website -->
 
 <body>
 <h1>An Nguyen</h1>
-<p>an.nguyen.3@stonybrook.edu | anmocnguyen@outlook.com</p> 
+<p style = "font-size: 13px;" class = "height">an.nguyen.3@stonybrook.edu | anmocnguyen@outlook.com</p>
 
-<h2>Education</h2>
+<img src="me.jpeg" alt="selfie of me" style="width:403.2px;height:241.0px;" class="center">
+
+<p class = "padding">Hello! I'm a PhD student in Dr. Krishna Veeramah's lab at Stony Brook University. My research interests lie in the population genetics of human and non-human primates. More specifically, I'm interested in the population-level dynamics of sex chromosomes (X). I've also recently become interested in lemurs!</p>
+<h3>Links of interest:</h3>
+
+<p><a href = "">CV</a> | <a href = "https://github.com/jigaus">Github</a></p>
+
 
 
 </body>
